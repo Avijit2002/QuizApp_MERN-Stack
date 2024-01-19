@@ -161,6 +161,11 @@ progress {
   border: 2px solid var(--color-theme);
   color: var(--color-light);
 }
+.btn-option.red {
+  background-color: rgb(244, 71, 71);
+  border: 2px solid rgb(244, 71, 71);
+  color: var(--color-light);
+}
 .btn-option.wrong {
   background-color: var(--color-accent);
   border: 2px solid var(--color-accent);
@@ -256,4 +261,8 @@ progress {
 .counter * {
   font-size: inherit;
   padding: 0.8rem;
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
 }
